@@ -14,13 +14,13 @@ daca x este divizibil cu y.
     public class Program 
     { public static void Main(string[] args) 
         { 
-            double primulNumar;
-            double alDoileaNumar;
-            double divizibil;
+            int primulNumar;
+            int alDoileaNumar;
+            int divizibil;
             Console.WriteLine("Introduceti primul numarul: ");
-            primulNumar = Convert.ToDouble(Console.ReadLine());
+            primulNumar = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Introduceti al doilea numar: ");
-            alDoileaNumar = Convert.ToDouble(Console.ReadLine());
+            alDoileaNumar = Convert.ToInt32(Console.ReadLine());
             divizibil = primulNumar % alDoileaNumar;
             if (divizibil == 0)
             { 
